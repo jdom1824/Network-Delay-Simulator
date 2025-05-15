@@ -6,9 +6,9 @@ This is an end-to-end network simulator that models the behavior of a large-scal
 
 The simulator builds an 18,000-node network using the **Barabási–Albert** model, representing a distributed infrastructure divided into three logical layers:
 
-- MH (Max Hierarchy)
-- ML (Mid Hierarchy)
-- IM (Infrastructure Minimum)
+- MH (high-frequency access)
+- ML (low-frequency access)
+- IM (accessed solely for historical verification)
 
 Each node includes **M/M/1** queues that process requests asynchronously.
 
